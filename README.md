@@ -1,23 +1,22 @@
-# mondoapps official website
+# mondoapps
 
-Static site prepared for https://mondoapps.github.io/. No build system or remote fonts/scripts.
+Official website: https://mondoapps.github.io/
 
-- Product: /shiori-study/
-- Support: /shiori-study/support.html
-- Privacy: /shiori-study/privacy.html
-- Assets are the original app icon and local CSS.
-- No claimed App Store availability or unavailable download button.
+## Shiori Study / しおり暗記
 
-## Publish checks
+- Product: https://mondoapps.github.io/shiori-study/
+- Support: https://mondoapps.github.io/shiori-study/support.html
+- Privacy: https://mondoapps.github.io/shiori-study/privacy.html
+- Public support: https://github.com/mondoapps/mondoapps.github.io/issues
 
-Root agent must connect the actual user repository and enable GitHub Pages. This folder does not establish deployment.
-Confirm Issues are enabled and the support route resolves for signed-out users. The support route currently targets https://github.com/mondoapps/mondoapps.github.io/issues as a proposed option pending the user's reply. User authorization covers building the official website; it does not yet confirm Issues as the public contact route. No private email is published.
-A GitHub public name is not asserted to be a registered legal entity. Use confirmed owner information where storefront/local law requires it.
-The privacy policy covers the current iOS/iPadOS local product. Update before cloud, AI, ads or purchases; align the final app and App Store privacy answers.
-Check HTTPS, canonical URLs, favicon, mobile/desktop rendering and public support/privacy links after deployment.
-Add an App Store link only after actual public availability.
+A Japanese and Chinese static website for the current local study app. The site uses local CSS and original artwork, with no custom analytics, advertisements, remote fonts, or JavaScript dependencies. App Store availability is shown only after public release is verified.
 
-## Future advertising verification
+## Hosting
 
-No ad SDK, network, publisher account or seller ID is configured. Do not create a fabricated app-ads.txt authorization.
-When a real ad provider supplies authorized seller entries, put the exact authorized app-ads.txt at hostname root /app-ads.txt and verify it publicly. The App Store developer website host and provider instructions must agree. A product subdirectory is not the hostname root.
+GitHub Pages publishes the main branch at the domain root. Keep .nojekyll, product pages, and assets together. The App source code, signing files, credentials, and study materials are not part of this public repository.
+
+Public Issues require a GitHub account; reports are public. Please provide app version, device, OS and reproduction steps without uploading private study material, audio, credentials or other personal data.
+
+## Advertising verification
+
+The app currently has no advertising SDK or configured publisher account. When a real ad provider supplies authorized seller records, publish its exact app-ads.txt at https://mondoapps.github.io/app-ads.txt and verify it publicly. Do not use sample or fabricated publisher IDs. Update the privacy policy and storefront disclosures before introducing ads, cloud, AI or purchases.
