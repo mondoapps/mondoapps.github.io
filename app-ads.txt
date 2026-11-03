@@ -1,4 +1,5 @@
 # Advertising is not enabled for Genbacho in its first release.
-# No Genbacho seller authorizations are declared in this candidate.
+# Verified AdMob authorization below is for the upcoming Genbacho advertising update.
 # Add only verified publisher/account lines from the real provider dashboards after store launch.
 # If the existing root site authorizes sellers for other apps, preserve those lines when merging.
+google.com, pub-6295290625884228, DIRECT, f08c47fec0942fa0
